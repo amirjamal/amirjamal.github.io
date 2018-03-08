@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Home - 2576021 Ontario Inc.</title>
+    <title>Contact Us - 2576021 Ontario Inc.</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+        form {
+
+        }
+
+        label > span {
+            color: red;
+        }
+    </style>
 
 </head>
 
@@ -55,90 +65,45 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <ul class="bxslider">
-              <li><img src="img1.jpg" width="1010px" height="368px"/></li>
-              <li><img src="img2.jpg" width="1010px" height="368px" /></li>
-              <li><img src="img3.jpg" width="1010px" height="368px" /></li>
-              <li><img src="img4.jpg" width="1010px" height="368px" /></li>
-              <li><img src="img5.jpg" width="1010px" height="368px"/></li>
-            </ul>
-        </header>
-        
-        <hr/>
-        <!-- Title -->
+
         <div class="row">
-            <div class="col-lg-12">
-                <h3 style="margin: 0px 0 15px 45px; font-family: 'Open sans';">Our qualities</h3>
+            
+            <div class="col-md-5">
+                <h3>ADDRESS</h3>
+
             </div>
-        </div>
-        <!-- /.row -->
 
-        <!-- Page Features -->
-        <div class="parent-box row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="expert.jpg" alt="">
-                    <div class="caption">
-                        <h3>EXPERT TECHNICIANS</h3>
-                        <p>Seasoned professionals to solve your technical problems.</p>
+            <div class="col-md-7">
+                <h1>Contact Us Form</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="InputName">Name <span>*</span></label>
+                        <input type="text" class="form-control" id="InputName" placeholder="Name" required>
                     </div>
-                </div>
-            </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="diagno.png" alt="">
-                    <div class="caption">
-                        <h3>FREE DIAGNOSTICS</h3>
-                        <p>Diagnose the issue for no charges</p>
+                    <div class="form-group">
+                        <label for="InputEmail">Email address <span>*</span></label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Email" required>
                     </div>
-                    <br><br>
-                </div>
-            </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="tele.png" alt="">
-                    <div class="caption">
-                        <h3>24X7 SUPPORT</h3>
-                        <p>24x7 support to keep your devices running with no interruption.</p>
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox" anme="emailUpdates"> Check here to receive email updates
+                        </label>
                     </div>
-                    <br>
-                </div>
-            </div>
+                    
+                    <div class="form-group">
+                        <label for="InputSubject">Subject <span>*</span></label>
+                        <input type="text" class="form-control" id="InputSubject" placeholder="Subject" required>
+                    </div>
 
-        </div>
-        <!-- /.row -->
-        
-        <div class="row">
-            <div class="box col-md-4">
-                <h3>SEASONED PROS</h3>
-                <img src="people.jpg" />
-                <p style="margin:10px 2px 0 0px;font-size: 18px; color: rgb(226, 162, 18);">EXPERT TECHNICIANS TO SOLVE YOUR TECHNICAL PROBLEMS</p>
-            </div>
+                    <div class="form-group">
+                        <label for="InputMsg">Message <span>*</span></label>
+                        <textarea rows="3" type="text" class="form-control" id="InputMsg" placeholder="Message" required></textarea>
+                    </div>
 
-            <div class="box col-md-4">
-                <h3>OUR SERVICES</h3>
-                <ul style="list-style-type: square;color: #e3a412;font-size: 16px;">
-                    <li><span>PC, Laptop &amp; Printer Support</span></li>
-                    <li><span>Roku, Apple TV, Xbox Support</span></li>
-                    <li><span>Smart devices Support</span></li>
-                    <li><span>Email Support</span></li>
-                    <li><span>Office Support</span></li>
-                    <li>​<span>Online Games Support</span></li>
-                    <li style="border-bottom: none">​<span>Install &amp; Setup any Software/Drivers</span></li>
-                </ul>
-            </div>
-
-            <div class="box col-md-4">
-                <h3>TESTIMONIALS</h3>
-                <img src="girl.jpg" />
-                <blockquote>
-                    <p>"2576021 Ontario Inc. delivered everything they promised. Our customer satisfaction levels are at an all-time high!"</p>
-                </blockquote>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
         </div>
 
