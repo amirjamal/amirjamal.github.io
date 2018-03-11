@@ -85,7 +85,7 @@ nav > ul > li:hover > a {
 .number span {
     font-weight: bold;
     font-size: 32px;
-    color: red;
+    color: #1a7cd6;;
 }
 
 .bxslider img {
@@ -139,4 +139,13 @@ nav > ul > li:hover > a {
     display: inline-block;
     padding: 30px 1px 0px 6px;
     vertical-align: bottom;
+}
+
+.slogan {
+    font-weight: 500;
+}
+
+.company_name {
+    text-decoration: none;
+    color: black;
 }
