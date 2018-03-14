@@ -67,6 +67,11 @@ nav > ul > li:hover > a {
     padding: 5px;
 }
 
+.brand > img {
+    width: 125px;
+    border-radius: 5px;
+}
+
 .brand > .logo {
     display: inline-block;
     margin: -15px 0 10px 5px;
